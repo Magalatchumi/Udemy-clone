@@ -113,7 +113,9 @@
 
 }
 .cource-card{
-    width:100%;
+    flex-grow: 1;
+    flex-basis: 20%; 
+    margin: 5px;
 }
 .cource-card img{
     width:30%;
@@ -146,4 +148,20 @@
     display: flex;
     margin: 20px;
     
+}
+/* Media Quires */
+
+@media screen and (max-width:800px){
+    body{
+        font-size: 10px;;
+    }
+}
+
+@media screen and (max-width:800px){
+    .cource-card{
+        font-basis: 40px;;
+    }
+    .categories{
+        display: none;
+    }
 }
